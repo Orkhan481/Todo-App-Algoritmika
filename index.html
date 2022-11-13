@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Todo App</title>
+</head>
+
+<body>
+    <section class="todo-page">
+
+        <div class="todo-card">
+
+            <div class="bg-yellow"></div>
+
+            <h1>To-do List</h1>
+
+            <div class="icons">
+                <i class="fa-solid fa-arrow-down-wide-short" id="sort-icon"></i>
+                <i class="fa-solid fa-trash" id="delete-all-todo-icon"></i>
+            </div>
+
+            <form class="todo-form">
+
+                <div class="todo-item not-remove">
+                    <input type="text" class="todo-input" id="add-input">
+                    <i class="fa-solid fa-list-ol list-icon"></i>
+                </div>
+
+                <div class="todo-list">
+                    <!-- <div class="todo-item">
+                             <input type="text" class="todo-input">
+                            <i class="fa-solid fa-check done-icon"></i>
+                            <i class="fa-solid fa-x delete-icon" ></i>
+                         </div> -->
+
+                        </div>
+
+                <button class="add-button"><span class="plus">+</span> Əlavə et</button>
+            </form>
+
+        </div>
+
+    </section>
+    <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
